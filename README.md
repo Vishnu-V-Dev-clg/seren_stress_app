@@ -169,35 +169,8 @@ The application runs locally on a PC using the **Chrome browser**.
 
 * Interactive charts using Flutter libraries
 
----
 
-# 9. Project Structure
-
-seren_stress_app
-
-seren_stress_app
-│
-├── lib
-│   ├── models
-│   ├── pages
-│   ├── theme
-│   ├── utils
-│   ├── firebase_options.dart
-│   └── main.dart
-│
-├── android
-├── ios
-├── linux
-├── macos
-├── web
-├── windows
-│
-├── pubspec.yaml
-└── README.md
-
----
-
-# 10. Installation and Setup
+# 9. Installation and Setup
 
 ## Step 1 – Clone the Repository
 
@@ -217,9 +190,11 @@ flutter run -d chrome
 
 The application will open automatically in the **Chrome browser**.
 
+Note: Databse Access is not included in this repo, contact authorities for the access.
+
 ---
 
-# 11. Applications
+# 10. Applications
 
 This system can be used in several domains:
 
@@ -231,7 +206,7 @@ This system can be used in several domains:
 
 ---
 
-# 12. Future Work
+# 11. Future Work
 
 Possible improvements for the system include:
 
@@ -243,7 +218,7 @@ Possible improvements for the system include:
 
 ---
 
-# 13. Conclusion
+# 12. Conclusion
 
 This project presents a **Flutter web-based stress detection system using Galvanic Skin Response signals**. The integration of physiological sensing hardware, signal processing techniques, and machine learning algorithms enables real-time stress analysis. By leveraging the cross-platform capabilities of Flutter Web, the system provides an accessible and interactive platform for monitoring physiological stress signals directly through a web browser.
 
