@@ -7,6 +7,7 @@ import 'package:fl_chart/fl_chart.dart';
 import '../models/stress_session.dart';
 import '../utils/gsr_converter.dart';
 import '../utils/kalman_filter.dart';
+import 'analysis_page.dart'; // <-- import AnalysisPage
 
 class SessionViewer extends StatelessWidget {
   final StressSession session;
@@ -148,6 +149,34 @@ class SessionViewer extends StatelessWidget {
                 height: 260,
                 child: LineChart(
                   _buildChartData(filteredSpots, const Color(0xFF00F5A0)),
+                ),
+              ),
+
+              const SizedBox(height: 40),
+
+              /// ================= PREDICT STRESS BUTTON =================
+              ElevatedButton.icon(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => AnalysisPage(session: session),
+                    ),
+                  );
+                },
+                icon: const Icon(Icons.analytics),
+                label: const Text("Predict Stress"),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.greenAccent,
+                  foregroundColor: Colors.black,
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 24,
+                    vertical: 14,
+                  ),
+                  textStyle: const TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               ),
             ],
