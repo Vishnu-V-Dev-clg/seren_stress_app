@@ -190,7 +190,7 @@ flutter run -d chrome
 
 The application will open automatically in the **Chrome browser**.
 
-Note: Databse Access is not included in this repo, contact authorities for the access.
+Note: Database Access is not included in this repo, contact authorities for the access.
 
 ---
 
