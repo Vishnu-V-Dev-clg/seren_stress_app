@@ -33,24 +33,6 @@ The Seren Stress system consists of four main components:
 3. Feature Extraction
 4. Stress Classification and Visualization
 
-## System Workflow
-
-GSR Sensor
-↓
-Arduino Microcontroller
-↓
-Serial Data Transmission
-↓
-Node.js / Local Server
-↓
-Flutter Web Application (Chrome Browser)
-↓
-Signal Processing and Feature Extraction
-↓
-Machine Learning Model
-↓
-Stress Level Prediction and Visualization
-
 ---
 
 # 3. Hardware Components
