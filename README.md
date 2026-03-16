@@ -175,23 +175,25 @@ The application runs locally on a PC using the **Chrome browser**.
 
 seren_stress_app
 
-lib
-├── models
-├── pages
-├── theme
-├── utils
-├── firebase_options.dart
-└── main.dart
-
-android
-ios
-linux
-macos
-web
-windows
-
-pubspec.yaml
-README.md
+seren_stress_app
+│
+├── lib
+│   ├── models
+│   ├── pages
+│   ├── theme
+│   ├── utils
+│   ├── firebase_options.dart
+│   └── main.dart
+│
+├── android
+├── ios
+├── linux
+├── macos
+├── web
+├── windows
+│
+├── pubspec.yaml
+└── README.md
 
 ---
 
