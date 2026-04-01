@@ -90,17 +90,6 @@ These features form a **feature vector** that is used as input for the machine l
 
 # 6. Stress Classification Model
 
-The system uses a supervised machine learning approach to analyze physiological features extracted from the GSR signal. Initially, the model performs **binary classification** to determine whether the user is in a **relaxed state or a stressed state**.
-
-### Binary Classification
-
-The trained model outputs a binary prediction:
-
-* **0 → Relaxed State**
-* **1 → Stressed State**
-
-These predictions are generated using statistical features extracted from the processed GSR signal, including mean, variance, and peak values.
-
 ### Multi-Level Stress Categorization
 
 To provide a more informative stress analysis, the binary prediction results are further mapped into **four stress intensity levels** based on the magnitude and trend of the GSR signal.
